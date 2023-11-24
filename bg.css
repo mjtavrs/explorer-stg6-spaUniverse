@@ -1,0 +1,17 @@
+.bgHome {
+    background-image: url('assets/mountains-universe-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgUniverse {
+    background-image: url('assets/mountains-universe02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgExploration {
+    background-image: url('assets/mountains-universe-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

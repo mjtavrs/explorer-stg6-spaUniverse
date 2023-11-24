@@ -1,0 +1,66 @@
+@import url('./bg.css');
+@import url('./menu.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-blue: #02799D;
+    --color-liter-gray: #E1E1E6;
+    --color-lite-gray: #C4C4CC;
+    --color-white: #fff;
+}
+
+body {
+    color: var(--color-white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+.home {
+    align-items: center;
+    display: flex;
+    gap: 2.4rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30rem 44rem 36rem;
+    text-align: center;
+}
+
+.home button {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+    border-radius: 5px;
+    color: var(--color-white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 1.2rem 3.2rem;
+    text-transform: uppercase;
+}
+
+.common {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 18.5rem 53rem 25rem 10rem;
+}
+
+.common p {
+    color: var(--color-liter-gray);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    padding-right: 53rem;
+}

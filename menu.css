@@ -1,0 +1,25 @@
+.menu {
+    align-items: center;
+    display: flex;
+    gap: 4.3rem;
+    padding: 4rem 72rem 4rem 7.2rem;
+    width: 100vw;
+}
+
+.menu-wrapper {
+    display: flex;
+    gap: 5.4rem;
+}
+
+.menu-wrapper a {
+    color: var(--color-lite-gray);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-decoration: none;
+}
+
+.menu-wrapper a.selected {
+    color: var(--color-white);
+    font-weight: 700;
+}
